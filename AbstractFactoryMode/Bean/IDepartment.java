@@ -1,4 +1,4 @@
-package AbstractFactoryMode.Obj;
+package AbstractFactoryMode.Bean;
 
 public interface IDepartment {
 

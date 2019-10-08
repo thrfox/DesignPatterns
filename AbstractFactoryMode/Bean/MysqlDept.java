@@ -1,4 +1,4 @@
-package AbstractFactoryMode.Obj;
+package AbstractFactoryMode.Bean;
 
 public class MysqlDept implements IDepartment {
     @Override

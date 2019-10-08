@@ -1,8 +1,8 @@
-package AbstractFactoryMode.Obj;
+package AbstractFactoryMode.Bean;
 
 public class MysqlUser implements IUser {
     @Override
-    public void insert() {
+    public void insert(User user) {
         System.out.println("插入mysql的user");
     }
 
