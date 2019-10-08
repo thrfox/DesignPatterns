@@ -2,7 +2,7 @@ package AbstractFactoryMode.Bean;
 
 public class MysqlDept implements IDepartment {
     @Override
-    public void insert() {
+    public void insert(Department department) {
         System.out.println("insert MysqlDept");
     }
 
